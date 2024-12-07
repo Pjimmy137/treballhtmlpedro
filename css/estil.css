@@ -1,0 +1,102 @@
+﻿/* General */
+body {
+    font-family: Verdana, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    background-image: url('../images/fondo.jpg');
+    background-size: cover; /* La imagen cubre toda la pantalla */
+      background-position: center; /* La imagen se centra */
+      background-attachment: fixed; /* Fija la imagen al hacer scroll */
+      margin: 0;
+}
+
+/* Encabezado */
+div[style*="background-color:#8e8ada"] {
+    background: linear-gradient(135deg, #8e8ada, #5c5ca3);
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+
+div[style*="background-color:#8e8ada"] h1 {
+    font-family: 'Bernard MT Condensed', sans-serif;
+    font-size: 50px;
+    margin: 0;
+}
+
+/* Contenido Principal */
+.main {
+    padding: 20px;
+    background: white;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 75%;
+    float: right;
+}
+
+.main h2 {
+    color: #8e8ada;
+    margin-top: 0;
+}
+
+.main h3 {
+    color: #3498db;
+}
+
+.main ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+.main li {
+    margin-bottom: 10px;
+}
+
+/* Barra lateral */
+.menu {
+    background: #ecf0f1;
+    padding: 10px 0;
+    margin: 20px auto;
+    margin-left: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    float: left;
+    width: 20%;
+}
+
+.menu a:hover{
+    color: #e74c3c;
+}
+
+.menu h2 {
+    color: #8e44ad;
+}
+
+.menu a {
+    background: #8e44ad;
+    color: white;
+    padding: 19px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: block;
+    text-decoration: none;   
+}
+
+/* Pie de página */
+div[style*="background-color:#e5e5e5"] {
+    background: #34495e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    margin-top: 20px;
+}
+
+div[style*="background-color:#e5e5e5"] a {
+    color: #e74c3c;
+    text-decoration: none;
+}
